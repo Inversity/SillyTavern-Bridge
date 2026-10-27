@@ -1,0 +1,3 @@
+/* Bridge: toasts only for now. Kept so ST's loader finds the declared stylesheet. */
+.bridge-toast-actions { display: flex; gap: 0.5em; margin-top: 0.5em; }
+.bridge-toast-actions button { cursor: pointer; }

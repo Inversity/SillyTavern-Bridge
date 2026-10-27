@@ -1,0 +1,11 @@
+{
+    "display_name": "Bridge",
+    "loading_order": 200,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "Inversity",
+    "version": "0.1.0",
+    "homePage": "https://github.com/Inversity/SillyTavern-Bridge"
+}
