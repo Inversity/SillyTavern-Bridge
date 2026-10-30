@@ -1,1 +1,18 @@
+# Store LF in the repo and check out LF everywhere, Windows included,
+# so Windows and Linux copies are byte-identical.
 * text=auto eol=lf
+
+# cmd.exe misparses labels and goto with LF; keep these CRLF.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Never touch binaries, whatever content detection guesses.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.xlsx binary
+*.zip binary
